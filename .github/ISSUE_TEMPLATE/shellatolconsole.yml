@@ -7,11 +7,6 @@ labels:
 
 body:
 
-* type: markdown
-  attributes:
-  value: |
-  ## ShellAtolConsole Issue Template
-
 * type: input
   id: summary
   attributes:
@@ -20,14 +15,10 @@ body:
   required: true
 
 * type: textarea
-  id: logs
+  id: details
   attributes:
-  label: Logs / Output
-  description: Paste logs here
+  label: Details
   placeholder: |
-  [INFO] Example log
-  [ERROR] Something failed
+  Describe your issue here
   validations:
-  required: false
-
-
+  required: true
