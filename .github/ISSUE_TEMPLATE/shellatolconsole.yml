@@ -12,7 +12,7 @@ body:
     validations:
       required: true
 
-      - type: multiline-input
+      - type: textarea
     id: body
     attributes:
       label: Body
