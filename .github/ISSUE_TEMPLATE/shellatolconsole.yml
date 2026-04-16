@@ -1,10 +1,9 @@
-name: "ShellAtolConsole Issue"
-description: "Report a bug, request a feature, or improve ShellAtolConsole"
-title: "[ShellAtolConsole] "
+name: ShellAtolConsole Issue
+description: Report a bug or request a feature
+title: "[ShellAtolConsole]"
 labels:
 
 * shellatolconsole
-  assignees: []
 
 body:
 
@@ -12,35 +11,10 @@ body:
   attributes:
   value: |
   ## ShellAtolConsole Issue Template
-  Please fill out the details below to help us understand your request.
 
 * type: input
   id: summary
   attributes:
   label: Summary
-  description: Briefly describe the issue or feature request
-  placeholder: Short description here...
-  validations:
-  required: true
-
-* type: dropdown
-  id: issue_type
-  attributes:
-  label: Type of Issue
-  description: What kind of issue are you reporting?
-  options:
-  - Bug
-  - Feature Request
-  - Improvement
-  - Documentation
-  validations:
-  required: true
-
-* type: textarea
-  id: description
-  attributes:
-  label: Detailed Description
-  description: Provide a clear and detailed explanation
-  placeholder: Explain what is happening or what you want...
   validations:
   required: true
