@@ -11,3 +11,10 @@ body:
       label: Summary
     validations:
       required: true
+
+      - type: multiline-input
+    id: body
+    attributes:
+      label: Body
+    validations:
+      required: true
