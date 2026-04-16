@@ -2,26 +2,32 @@ name: ShellAtolConsole Issue
 description: Report a bug or request a feature
 title: "[ShellAtolConsole]"
 labels:
-  - shellatolconsole
+
+* shellatolconsole
 
 body:
-  - type: input
-    id: summary
-    attributes:
-      label: Summary
-    validations:
-      required: true
 
-  * type: textarea
+* type: markdown
+  attributes:
+  value: |
+  ## ShellAtolConsole Issue Template
+
+* type: input
+  id: summary
+  attributes:
+  label: Summary
+  validations:
+  required: true
+
+* type: textarea
   id: logs
   attributes:
   label: Logs / Output
-  description: Paste any relevant logs or console output here
+  description: Paste logs here
   placeholder: |
-  Example:
-  [INFO] Starting ShellAtolConsole...
-  [ERROR] Something failed...
-  render: shell
+  [INFO] Example log
+  [ERROR] Something failed
   validations:
   required: false
+
 
