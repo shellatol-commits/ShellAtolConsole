@@ -1,8 +1,10 @@
-name: ShellAtolConsole Issue
-description: Report a bug, request a feature, or improve ShellAtolConsole
-title: "[ShellAtolConsole]: "
-labels: ["shellatolconsole"]
-assignees: []
+name: "ShellAtolConsole Issue"
+description: "Report a bug, request a feature, or improve ShellAtolConsole"
+title: "[ShellAtolConsole] "
+labels:
+
+* shellatolconsole
+  assignees: []
 
 body:
 
@@ -42,47 +44,3 @@ body:
   placeholder: Explain what is happening or what you want...
   validations:
   required: true
-
-* type: textarea
-  id: steps
-  attributes:
-  label: Steps to Reproduce (for bugs)
-  description: How can we reproduce this issue?
-  placeholder: |
-  1. Run command...
-  2. Observe output...
-  validations:
-  required: false
-
-* type: textarea
-  id: expected
-  attributes:
-  label: Expected Behavior
-  description: What did you expect to happen?
-  validations:
-  required: false
-
-* type: textarea
-  id: actual
-  attributes:
-  label: Actual Behavior
-  description: What actually happened?
-  validations:
-  required: false
-
-* type: input
-  id: environment
-  attributes:
-  label: Environment
-  description: OS, runtime, version, etc.
-  placeholder: e.g. Windows 11, .NET 8
-  validations:
-  required: false
-
-* type: textarea
-  id: additional
-  attributes:
-  label: Additional Context
-  description: Add any other context, logs, or screenshots
-  validations:
-  required: false
