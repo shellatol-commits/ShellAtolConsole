@@ -2,19 +2,12 @@ name: ShellAtolConsole Issue
 description: Report a bug or request a feature
 title: "[ShellAtolConsole]"
 labels:
-
-* shellatolconsole
+  - shellatolconsole
 
 body:
-
-* type: markdown
-  attributes:
-  value: |
-  ## ShellAtolConsole Issue Template
-
-* type: input
-  id: summary
-  attributes:
-  label: Summary
-  validations:
-  required: true
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+    validations:
+      required: true
