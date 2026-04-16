@@ -12,9 +12,16 @@ body:
     validations:
       required: true
 
-      - type: textarea
-    id: body
-    attributes:
-      label: Body
-    validations:
-      required: true
+  * type: textarea
+  id: logs
+  attributes:
+  label: Logs / Output
+  description: Paste any relevant logs or console output here
+  placeholder: |
+  Example:
+  [INFO] Starting ShellAtolConsole...
+  [ERROR] Something failed...
+  render: shell
+  validations:
+  required: false
+
